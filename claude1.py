@@ -16,7 +16,7 @@ from datetime import datetime
 import PyPDF2
 from docx import Document
 from docx.shared import Inches
-from reportlab.pdfgen import canvas
+from reportlab.pdfgen import canva
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
@@ -795,3 +795,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
