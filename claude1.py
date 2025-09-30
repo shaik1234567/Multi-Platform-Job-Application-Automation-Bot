@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import (
     ElementClickInterceptedException, StaleElementReferenceException, TimeoutException, NoSuchElementException
-)
+
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 import csv
@@ -793,4 +793,5 @@ def main():
             pass
 
 if __name__ == "__main__":
+
     main()
