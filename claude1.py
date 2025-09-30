@@ -70,7 +70,7 @@ def create_driver():
     driver.set_page_load_timeout(60)
     return driver
 
-def field_fill(wait, locator, text):
+def field_fill(wait, locator, text)
     el = wait.until(EC.visibility_of_element_located(locator))
     el.clear()
     el.send_keys(text)
@@ -795,6 +795,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
