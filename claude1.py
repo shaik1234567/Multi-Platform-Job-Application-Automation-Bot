@@ -26,7 +26,7 @@ from io import BytesIO
 # Configuration
 EMAIL = "shaikshivaji2004@gmail.com"
 PASSWORD = "b@NymuFRDfY28WX"
-BASE_RESUME_PATH = r"C:\Users\shaik\automation\resume.pdf"
+BASE_RESUME_PATH = r"C:\Users\shaik\automation\resume.pdf
 CSV_FILE = "applied_internships_detailed.csv"
 RESUME_LOG_FILE = "resume_customization_log.csv"
 CUSTOMIZED_RESUME_DIR = "customized_resumes"
@@ -795,4 +795,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
