@@ -36,7 +36,7 @@ ROLE_LINKS = [
     "https://internshala.com/internships/keywords-data-analyst/",
     "https://internshala.com/internships/keywords-machine-learning/"
 ]
-MIN_STIPEND = 5000
+MIN_STIPEND = 500
 
 # Skills database for matching
 SKILLS_DATABASE = {
@@ -795,5 +795,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
