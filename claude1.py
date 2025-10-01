@@ -34,7 +34,7 @@ CUSTOMIZED_RESUME_DIR = "customized_resumes"
 ROLE_LINKS = [
     "https://internshala.com/internships/keywords-data-science/",
     "https://internshala.com/internships/keywords-data-analyst/",
-    "https://internshala.com/internships/keywords-machine-learning/"
+    "https://intrnshala.com/internships/keywords-machine-learning/"
 ]
 MIN_STIPEND = 500
 
@@ -795,6 +795,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
