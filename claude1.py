@@ -99,7 +99,7 @@ def click_login_safely(driver, wait):
         return True
     except (ElementClickInterceptedException, StaleElementReferenceException):
         try:
-            btn = wait.until(EC.visibility_of_element_located(btn_locator))
+            btn = wait.until(EC.visibility_of_element_located(btn_locator
             driver.execute_script("arguments[0].click();", btn)
             return True
         except Exception:
@@ -795,6 +795,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
