@@ -58,7 +58,7 @@ SKILLS_DATABASE = {
     ]
 }
 
-# Create directories
+# Create directorie
 os.makedirs(CUSTOMIZED_RESUME_DIR, exist_ok=True)
 
 def create_driver():
@@ -795,6 +795,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
