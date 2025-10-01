@@ -129,7 +129,7 @@ def parse_stipend(stipend_text):
     return 0
 
 def extract_skills_from_description(description_text):
-    """Extract relevant skills from job description"""
+    """Extract relevant skills from job description""
     description_lower = description_text.lower()
     found_skills = set()
     
@@ -795,6 +795,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
